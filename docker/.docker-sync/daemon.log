@@ -1,0 +1,8 @@
+          ok  Starting native_osx for sync source_sync
+          ok  source_sync container still running, restarting unison in container
+     command  docker exec source_sync supervisorctl restart unison
+unison: stopped
+unison: started
+          ok  starting initial sync of source_sync
+     success  Sync container started
+     success  Showing unison logs from your sync container: source_sync
